@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<!--Created:cb85b80c-f585-40ff-8bfc-12ff4d0e34a9-->
+<App xmlns="http://schemas.microsoft.com/sharepoint/2012/app/manifest"
+     Name="AzureCloudApp"
+     ProductID="{0abdca70-05dc-4fd9-b100-5912d1321da6}"
+     Version="1.0.0.0"
+     SharePointMinVersion="16.0.0.0"
+>
+  <Properties>
+    <Title>Azure Cloud App</Title>
+    <StartPage>https://jonesazurecloudapp.azurewebsites.net/Customers?{StandardTokens}</StartPage>
+  </Properties>
+
+  <AppPrincipal>
+    <RemoteWebApplication ClientId="0af210ae-c1a5-4a59-887b-6774d70ca41b" />
+  </AppPrincipal>
+</App>
